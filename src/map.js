@@ -9,5 +9,21 @@ module.exports = {
             Account: 'accounts',
             Role: 'roles'
         }
+    },
+    master: {
+        type: {
+            Project: 'project'
+        },
+        collection: {
+            Project: 'projects'
+        }
+    },
+    timesheet: {
+        type: {
+            WeeeklyTimesheet: 'weekly-timesheet'
+        },
+        collection: {
+            WeeklyTimesheet: 'weekly-timesheets'
+        }
     }
-}
+};

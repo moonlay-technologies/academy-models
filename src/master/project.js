@@ -2,9 +2,9 @@
 
 var BaseModel = require('model-toolkit').BaseModel;
 
-module.exports = class Role extends BaseModel {
+module.exports = class Project extends BaseModel {
     constructor(source) {
-        super('role', '1.0.0');
+        super('project', '1.0.0');
  
         // Define properties.  
         this.code = '';
