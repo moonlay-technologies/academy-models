@@ -10,7 +10,7 @@ module.exports = class Account extends BaseModel {
         // Define properties.  
         this.username = '';
         this.password = '';
-        this.isLocked = false;
+        this.isLocked = false; 
         this.profile = new Profile();
         this.roles = [];
 
