@@ -7,6 +7,11 @@ module.exports = {
     master: {
         Project: require('./src/master/project')
     },
+    timesheet: {
+        WeeklyTimesheet: require('./src/timesheet/weekly-timesheet'),
+        DailyTimesheet: require('./src/timesheet/daily-timesheet'),
+        TimesheetItem: require('./src/timesheet/timesheet-item')
+    },
     map: require('./src/map'),
     validator: require('./src/validator')
 }
